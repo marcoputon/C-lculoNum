@@ -14,12 +14,12 @@ def mod(num):
     if num < 0: return -num
     else:   return num
 
-def testaIntervalo(a, b):
+def testaIntervalo(a, b, nit):
     if not f(a) * f(b) < 0:
         if f(a) == 0:
-            print("Raiz:", a)
+            print("Raiz:", a, "\nIteracoes:", nit)
         elif f(b) == 0:
-            print("Raiz:", b)
+            print("Raiz:", b, "\nIteracoes:", nit)
         else:
             print("intervalo invalido")
         quit()
