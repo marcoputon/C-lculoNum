@@ -19,4 +19,4 @@ def bisseccao(a, b, nit):
         elif f(c) * f(b) < 0:
             bisseccao(c, b, nit + 1)
 
-bisseccao(1, 8, 0)
+bisseccao(-1, 1, 0)

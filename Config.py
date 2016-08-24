@@ -4,8 +4,8 @@ from math import *
 MAXex = 10              #   Tamanho do eixo X
 MAXey = 3               #   Tamanho do eixo Y
 npontos = 90000         #   Quantidades de pontos a ser desenhado
-intervalo = [0, 5]   	#   Intervalo a ser desenhado
-p = 6                   #   Número de casas (Para a precisão)
+intervalo = [-1, 2]   	#   Intervalo a ser desenhado
+p = 7                   #   Número de casas (Para a precisão)
 dx = 10**-p             #   Precisão do calculo de raiz
 
 #   Eixos
@@ -14,7 +14,7 @@ ey = [-MAXex, MAXex]
 
 #   Função
 def f(x):
-    return (x**(1/3)) - 1
+    return x*(e**x)-2
 
 #   Derivada da função f(x)
 def fd(x):

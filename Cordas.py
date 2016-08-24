@@ -19,4 +19,4 @@ def cordas(a, b, nit):
         b = x
     cordas(a, b, nit + 1)
 
-cordas(0, 2, 0)
+cordas(-1, 1, 0)
