@@ -16,5 +16,6 @@ ey = [-MAXex, MAXex]
 def f(x):
     return (x**2)-2
 
+#   Derivada da função f(x)
 def fd(x):
     return 2*x
